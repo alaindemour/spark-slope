@@ -1,7 +1,7 @@
 # Spark Slope
 
 ## Build it
-sbt package
+    sbt package
 
 ## Run it
     spark-submit  --class "RegSort"   --master local[5] ./target/scala-2.11/regsort_2.11-1.0.jar
